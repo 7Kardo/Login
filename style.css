@@ -1,0 +1,45 @@
+ body{
+    background-color: rgb(54, 135, 207);
+ }
+ .parent{
+    position: absolute;
+    top: 15rem;
+    left: 40%;
+    width: 20rem;
+    height: 25rem;
+    background-color: rgb(94, 186, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px;
+ }
+#text,#pass{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px 0px;
+    
+}
+#submit{
+    margin-top: 0px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: red;
+    background-color: rgb(223, 212, 212);
+    transition: .8s;
+}
+
+#submit:hover{
+    box-shadow: 0px 0px 5px .5px rgb(41, 49, 52);
+}
+#page{
+    font-size: 34px;
+    color: rgba(13, 13, 13, 0.866);
+    text-shadow:  3px 3px 5px  rgb(41, 49, 52);
+    
+
+}
