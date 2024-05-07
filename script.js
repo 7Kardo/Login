@@ -19,8 +19,6 @@ submit.addEventListener('click',function(){
 function login(){
   var text = document.getElementById('text').value;
    
-   
-
   var pass = document.getElementById('pass').value;
 
   if (text===''){
